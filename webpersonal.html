@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bárbara Constantinidis</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="https://americalatina.unigis.net/nodos/panamacaribe">HUB Centroamérica y el Caribe<br>UNIGIS América Latina</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">START</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">ACADEMIC TRAINING</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">NETWORKING</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="https://www.aeroterra.com/content/dam/distributor-restricted/esri-ar/eventos/conferencia-gis/oradores/constantinidis-barbara.jpg" alt="image" width="20" height="200">
+            </div>
+            <h1>BÁRBARA CONSTANTINIDIS MIGOYA</h1>
+            <h2>Urban Planner Architect
+                <br>MSc. (GIS) Mg. City Management</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/barbara.constantinidis"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/bconstan"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://join.skype.com/invite/qm7duqLlMgbJ"><i class="fa-brands fa-skype"></i></a>
+                <a href="https://pa.linkedin.com/in/bconstantinidis"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/barbiurbangis/?hl=es-la"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>ABOUT ME</h2>
+            <p align="justify"><span>My name is Bárbara Constantinidis Migoya,</span> I was born in Argentina, where I finished my studies in Architecture and specialized in Urban and Territorial Planning with Mg. degree in City Management. I also have a Msc. of Sciences degree in Geographic Information Science and Systems (UNIGIS) Universität Salzburg and at present I’m Doctoral student at City, Territory and Sustainable Planning Program, Universitat Rovira i Virgili, Tarragona, Spain.<br>
+I live in Panama City, from where I work as an independent consultant, professor, and researcher. I’ve teaching for more than 15 years at Faculty of Architecture and Urbanism, University of Belgrano, Argentina, and I’m also professor and thesis director at the Planning and Management of Urban Engineering Master Program, Professional Council of Civil Engineering (CPIC Buenos Aires - Argentina).
+<br>I invite you to visit my profile and my networks, such as the Central America-Caribbean Hub, UNIGIS Latin America and the Neworking Group Sociedad Futura, recognized as a Group on Earth Observations (GEO), AmeriGEO Central America.
+                </p>    
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Personal information</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            08-06-1975
+                        </li>
+                        <li>
+                            <strong>Phone number</strong>
+                            +507 6805 0628
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            barabararq@gmail.com
+                        </li>
+                        <li>
+                            <strong>Address</strong>
+                            Panama City, Panama
+                        </li>
+                        <li>
+                            <strong>Charge</strong>
+                            Independent Consultant
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-pencil"></i>
+                            <span><p align=center>Writing stories</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span><p align=center>Reading history books</span>
+                        </div>
+                         <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span><p align=center>City photography</span>
+                        </div>
+                    
+                        <div class="interes">
+                            <i class="fa-solid fas fa-plane"></i>
+                            <span><p align=center>Travel and culture</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fas fa-paw"></i>
+                            <span><p align=center>Pet care</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fas fa-football-ball"></i>
+                            <span><p align=center>Rugby</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>SKILLS</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>ArcGIS (Esri)</span>
+                        <div class="barra-skill">
+                            
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>AUTOCAD (Autodesk)</span>
+                        <div class="barra-skill">
+                            
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Inkscape / Photoshop (Image Editors)</span>
+                        <div class="barra-skill">
+                            
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bibliographic Management Software</span>
+                        <div class="barra-skill">
+                            
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Moodle (and other E-Learning Platforms)</span>
+                        <div class="barra-skill">
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Planning and Organization</span>
+                        <div class="barra-skill">
+                               
+                        </div>
+                    
+                    <div class="skill">
+                        <span>Communication </span>
+                        <div class="barra-skill">
+                           
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Problem-solving </span>
+                        <div class="barra-skill">
+                            
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Networking</span>
+                        <div class="barra-skill">
+                            
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ethic</span>
+                        <div class="barra-skill">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>ACADEMIC TRAINING</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    
+                    <div class="item izq">
+                        <h4>Grade</h4>
+                        <span class="casa">University of Belgrano</span>
+                        <span class="fecha">1994 - 1999</span>
+                        <p>Degree in Architecture, University of Belgrano, Faculty of Architecture and Urbanism, Argentina; 1994-1999. Title: Architect with Orientation in Urban Planning, December 27, 1999.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Speciality</h4>
+                        <span class="casa">Universities of Belgrano and Salzburg</span>
+                        <span class="fecha">1993/2016/2020/2021/2022</span>
+                        <p>~Diploma in Internationalization of Higher Education. Vice-presidency of Teaching and Research. University of Belgrano, 2022.
+                        <br>~International Diploma in Innovative Education. Vice-presidency of Teaching and Research. University of Belgrano, 2021.
+                        <br>~Diploma in virtual teaching environments UB. Faculty of Distance Studies and Virtual Education (FEDEV). University of Belgrano, 2020/2021.
+                        <br>~Professional Diploma in Geographic Information Systems. University of Salzburg, Department of Geoinformatics, Austria, 2016.
+                        <br>~Advanced Negotiation Program, Executive Education. School of Economics and International Business, 1994.
+                        <br>~Postgraduate Course in Negotiation. University of Belgrano, School of Economics and International Business, 1993.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Publications and conferences</h4>
+                        <span class="casa">Websites:</span>
+                        <span class="fecha"></span>
+                        <p><a href="https://orcid.org/0000-0001-7239-4473" style="color:white">~ ORCID</a>
+                        <br><a href="https://barbaraconstantinidis.academia.edu/" style="color:white">~ Academia.edu</a>
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    
+                    <div class="item der">
+                        <h4>Mastery</h4>
+                        <span class="casa">Universities of Belgrano and Salzburg</span>
+                        <span class="fecha">2000-2005/2014-2018</span>
+                        <p>~Master in City Administration (City Management). University of Belgrano, Faculty of Architecture and Urbanism and School of Economics and International Business, Brazil; 2000-2005. Title: Master in City Administration.
+<br>~Master's Degree in UNIGIS Geographic Information Systems. University of Salzburg, Austria; 2014-2018. Title: Master of Science - Geographical Information Science and Systems.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Doctorate</h4>
+                        <span class="casa">University Rovira i Virgili, Spain</span>
+                        <span class="fecha">2020 - 2025</span>
+                        <p>Doctoral Programme in City, Territory and Sustainable Planning, Postgraduate and Doctoral School, Rovira i Virgili University, Tarragona, Spain. Line of Research: Planning and sustainable management of the Territory and the City. 2020-2025.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Scholarships and academic awards</h4>
+                        <span class="casa">Univ. of Belgrano & Austrian Institute</span>
+                        <span class="fecha">2001/2014/2022</span>
+                        <p>~Academic Recognition of Professors 2022, for 15 years of teaching at the University of Belgrano. Buenos Aires, November 23, 2022.
+                        <br>~ANNUAL Award for RESEARCH UNIVERSITY OF BELGRANO. 2022 Teacher Awards and Encouragement Program. Buenos Aires, November 15, 2022.
+                        <br>~Etta Becker-Donner Fellowship, Austrian Institute for Latin America (LAI). GI_Forum 2014: Geospatial Innovation for Society and AGIT 2014. University of Salzburg, Austria.
+                        <br>~47th Anniversary Medal UB to graduates with a high academic average from the Univ. Class of 2000. Grant date: 2001.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>NETWORKING</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="https://ub.edu.ar/sites/default/files/inline-images/iso2022.jpg" alt="">
+                    <div class="overlay">
+                        <a href="https://ub.edu.ar/facultad-de-arquitectura-y-urbanismo/arquitectura"><h3><font color=white>UNIVERSIDAD DE BELGRANO</font></h3></a>
+                        <p>Facultad de arquitectura y urbanismo</p>
+                    </div>
+                </div>
+                 <div class="proyecto">
+                   <br><br><br><br><img src="data:image/png;base64,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" alt="">
+                    <div class="overlay">
+                        <a href="http://redimus.org/"><h3><font color=white>RedIMUS</font></h3></a>
+                        <p>Red Iberoamericana de Investigadores de Movilidad Sostenible y Territorio</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="C:\Users\Guada\AppData\Local\Packages\Microsoft.ScreenSketch_8wekyb3d8bbwe\TempState\Captura de pantalla 2023-01-03 174427.png" alt="">
+                    <div class="overlay">
+                        <a href="https://sociedadfutura.com/"><h3><font color=white>Sociedad Futura</font></h3></a>
+                        <p></p>
+                    </div>
+                </div>
+                
+                <div class="proyecto">
+                    <img src="https://static.wixstatic.com/media/6e0c6c_7454d719d2c84d90a09e6ca819cac848~mv2.png/v1/fill/w_420,h_114,al_c,lg_1,q_85,enc_auto/2021-03-23.png" alt="">
+                    <div class="overlay">
+                        <a href="https://maestriaingenieriaurbana.com.ar/"><h3><font color=white>CPIC</font></h3></a>
+                        <p>Maestría en Planificación y Gestión de la Ingeniería Urbana</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACT</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Your name">
+                    <input type="text" placeholder="Phone number">
+                    <input type="text" placeholder="Email address">
+                    <input type="text" placeholder="Theme">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button>
+                        Send Message<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Panama City, Panama
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Call: +507 6805 0628
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: barabararq@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+        Bárbara Constantinidis Migoya
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
