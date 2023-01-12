@@ -57,8 +57,7 @@ html{
 }
 /* SECCION I N I C I O */
 .inicio{
-    background: linear-gradient(to top, #141467, #3D0A48),
-    url(img/fondo.jpg);
+    background-image: url(https://www.shutterstock.com/image-photo/road-roundabout-car-lots-wongwian-260nw-585580100.jpg);
     background-size: cover;
     height: 100vh;
     color: #ffff;
@@ -542,9 +541,9 @@ html{
     display: flex;
 }
 .contacto .col{
-    width: 50%;
+    width: 100%;
     padding: 10px;
-    position: relative;
+    position:relative;
 }
 .contacto .col input, .contacto .col textarea{
     display: block;
@@ -596,6 +595,7 @@ html{
 }
 .contacto .col .info ul{
     list-style: none;
+    font-size: 18px;
 }
 .contacto .col .info ul li{
     margin-bottom: 20px;
@@ -603,7 +603,7 @@ html{
 .contacto .col .info ul li i{
     color: #1CB698;
     display: inline-block;
-    margin-right: 20px;
+    align-content:  center;
 }
 footer{
     background-color: #252A2E;
@@ -711,4 +711,5 @@ footer .arriba{
     .contacto .fila .col{
         width: 100%;
     }
+
 }
